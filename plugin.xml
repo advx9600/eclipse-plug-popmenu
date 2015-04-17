@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.jdt.core.IJavaElement"
+            id="RighClk_OpenDir.contribution1">
+         <menu
+               label="Open File In File Explore"
+               path="additions"
+               id="RighClk_OpenDir.menu1">            
+         </menu>
+         <action
+               label="Open File In File Explore"
+               class="righclk_opendir.popup.actions.NewAction"
+               menubarPath="RighClk_OpenDir.menu1"
+               enablesFor="1"
+               id="RighClk_OpenDir.menu1">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>

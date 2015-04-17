@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RighClk_OpenDir
+Bundle-SymbolicName: RighClk_OpenDir;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: righclk_opendir.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.jdt.core.manipulation;bundle-version="1.5.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
