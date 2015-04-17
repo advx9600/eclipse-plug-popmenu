@@ -5,10 +5,10 @@
    <extension
          point="org.eclipse.ui.popupMenus">
       <objectContribution
-            objectClass="org.eclipse.jdt.core.IJavaElement"
+            objectClass="org.eclipse.jdt.core.IJavaProject"
             id="RighClk_OpenDir.contribution1">
          <menu
-               label="Open File In File Explore"
+               label="nothing"
                path="additions"
                id="RighClk_OpenDir.menu1">            
          </menu>
